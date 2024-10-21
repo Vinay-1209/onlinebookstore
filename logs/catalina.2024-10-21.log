@@ -1,0 +1,74 @@
+21-Oct-2024 19:27:47.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.31
+21-Oct-2024 19:27:47.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:02:38 UTC
+21-Oct-2024 19:27:47.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.31.0
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-45-generic
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/quanteon/.jdks/openjdk-23
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23+37-2369
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/quanteon/Downloads/onlinebookstore-master
+21-Oct-2024 19:27:47.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/quanteon/Downloads/apache-tomcat-10.1.31-windows-x64/apache-tomcat-10.1.31
+21-Oct-2024 19:27:47.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/quanteon/Downloads/apache-tomcat-10.1.31-windows-x64/apache-tomcat-10.1.31
+21-Oct-2024 19:27:47.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/quanteon/Downloads/onlinebookstore-master
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/quanteon/Downloads/onlinebookstore-master/temp
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/quanteon/Downloads/onlinebookstore-master/conf/logging.properties
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/537/lib/idea_rt.jar=39103:/snap/intellij-idea-community/537/bin
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Oct-2024 19:27:47.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-Oct-2024 19:27:47.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-Oct-2024 19:27:47.552 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Oct-2024 19:27:48.095 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:27:48.114 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [784] milliseconds
+21-Oct-2024 19:27:48.155 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Oct-2024 19:27:48.155 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+21-Oct-2024 19:27:48.165 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/quanteon/Downloads/onlinebookstore-master/conf/Catalina/localhost/online.xml]
+21-Oct-2024 19:27:48.999 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Oct-2024 19:27:49.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/quanteon/Downloads/onlinebookstore-master/conf/Catalina/localhost/online.xml] has finished in [865] ms
+21-Oct-2024 19:27:49.039 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:27:49.054 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [938] milliseconds
+21-Oct-2024 19:28:04.384 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:28:04.387 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Oct-2024 19:28:04.403 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:28:04.413 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:28:48.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.31
+21-Oct-2024 19:28:48.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:02:38 UTC
+21-Oct-2024 19:28:48.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.31.0
+21-Oct-2024 19:28:48.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-45-generic
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/quanteon/.jdks/openjdk-23
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23+37-2369
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/quanteon/Downloads/onlinebookstore-master
+21-Oct-2024 19:28:48.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/quanteon/Downloads/apache-tomcat-10.1.31-windows-x64/apache-tomcat-10.1.31
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/quanteon/Downloads/apache-tomcat-10.1.31-windows-x64/apache-tomcat-10.1.31
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/quanteon/Downloads/onlinebookstore-master
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/quanteon/Downloads/onlinebookstore-master/temp
+21-Oct-2024 19:28:48.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/quanteon/Downloads/onlinebookstore-master/conf/logging.properties
+21-Oct-2024 19:28:48.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2024 19:28:48.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/snap/intellij-idea-community/537/lib/idea_rt.jar=43721:/snap/intellij-idea-community/537/bin
+21-Oct-2024 19:28:48.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+21-Oct-2024 19:28:48.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+21-Oct-2024 19:28:48.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+21-Oct-2024 19:28:48.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+21-Oct-2024 19:28:48.721 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:28:48.753 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [830] milliseconds
+21-Oct-2024 19:28:48.818 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Oct-2024 19:28:48.819 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.31]
+21-Oct-2024 19:28:48.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/quanteon/Downloads/onlinebookstore-master/conf/Catalina/localhost/online.xml]
+21-Oct-2024 19:28:49.489 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Oct-2024 19:28:49.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/quanteon/Downloads/onlinebookstore-master/conf/Catalina/localhost/online.xml] has finished in [684] ms
+21-Oct-2024 19:28:49.520 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Oct-2024 19:28:49.529 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [774] milliseconds
